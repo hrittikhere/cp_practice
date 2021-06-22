@@ -6,7 +6,7 @@ void solve()
 	int a;
 	cin >> a;
 	string temp, name;
-	getline(cin, temp);
+	getline(cin, temp); //dummy getline for the extra space issue formed by getline()
 	while (a >= 1)
 	{
 		getline(cin, name);
