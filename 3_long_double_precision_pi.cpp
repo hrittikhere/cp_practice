@@ -6,7 +6,7 @@ void solve()
 	long double r, pi;
 	pi = acos(-1.0); // cos(pi)=-1; inversing
 	cin >> r;
-	cout << setprecision(9) << r * r * pi;
+	cout << fixed << setprecision(9) << r * r * pi; //fixed for calculating precision after .
 }
 
 signed main()
